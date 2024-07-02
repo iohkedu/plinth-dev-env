@@ -2,6 +2,7 @@
 # Instructions for setting up your development environment with Nix 
 
 First you will need to install *nix* on your system. Instructions for Linux, Mac OS, Windows (WSL2) and Docker can be found at the [official webpage](https://nixos.org/download). 
+If you are using Linux you might need to [disable SELinux](https://docs.fedoraproject.org/en-US/quick-docs/selinux-changing-states-and-modes/#_disabling_selinux) to be able to install Nix. 
 
 When installing Nix from the command line you will be asked following questions:
 ```console
