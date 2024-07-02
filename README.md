@@ -8,4 +8,11 @@ This repository aims to maintain up-to-date instructions for setting up a Plutus
 | :whale:       | The docker image currently supports features from the **Vasil hard fork**.|  
 |---------------|:--------------------------------------------------------------------------|  
 
+An example Plutus project is added to this repository. Once you have set up your developement environment you can build the example project with the following commands from the top location of this repository: 
+```console
+cabal update
+cabal build all
+```
+
+You can then cd into the *onchain/* fodler and start the REPL with `cabal repl`. 
 

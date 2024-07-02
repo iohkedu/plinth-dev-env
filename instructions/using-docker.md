@@ -24,10 +24,4 @@ The following instructions explain how to setup VSCode with Dcoker:
 ![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/dokcer-vscode/console-log.PNG) 
 * You can safely close this terminal window by clicking the trash can icon in the upper right corner of the terminal window. Now, open a new terminal window in VS Code by clicking the **Terminal** menu and then **New Terminal**. 
 
-From the new terminal window you can run and build Plutus projects. An example Plutus project is added to this repository. You can build the project with the following commands from the top location of the repository: 
-```console
-cabal update
-cabal build all
-```
-
-You can then cd into the *onchain/* fodler and start the REPL with `cabal repl`. 
+From the new terminal window you can run and build Plutus projects. 

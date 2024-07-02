@@ -63,8 +63,14 @@ systemctl restart nix-daemon
 systemctl status nix-daemon
 ```
 
-For instructions on how to run a nix shell that contains the development environment for Plutus, please look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository. 
+For instructions on how to run a nix shell that contains the development environment for Plutus, you can: 
+* clone [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository and run inside the repository:
+```console
+nix develop
+```
+* look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository instructions. 
 
-| :hourglass:   | When you will run your Nix shell for the first time it may take a while until everything has build.|  
+| :hourglass:   | When you will run your nix shell for the first time it may take a while until everything has build.|  
 |---------------|:---------------------------------------------------------------------------------------------------|  
 
+Once your nix shell has build you can start building your Plutus projects from withitn the nix shell. 
