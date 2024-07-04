@@ -75,7 +75,7 @@ nix develop
 | :information_source:   | The *Developer Experience Shell* lets a user pick from a list of various nix shells that support different GHC versions.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------|  
 
-Once your nix shell has build you can start building your Plutus projects from withitn the nix shell. The demo project 
-inside this repository might not build in the *plutus-tx-template* nix shell since the shell might use a different GHC version. 
+Once your nix shell has build you can start building your Plutus projects from withitn the nix shell. The demo project inside the 
+*plutus-dev-env* repository might not build in the *plutus-tx-template* nix shell since the shell might use a different GHC version. 
 
   
