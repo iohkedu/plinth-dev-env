@@ -16,3 +16,7 @@ cabal build all
 
 You can then cd into the *onchain/* fodler and start the REPL with `cabal repl`. 
 
+The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository also contains a Docker image  and it contains a Nix shell that both provide a Plutus development environment. 
+You can use instructions from the *plutus-dev-env* repository to install and set-up VSCode with Docker, Nix or Demeter and then use the provided *plutus-tx-template* repository for your development environment. 
+The *plutus-tx-template* repository also provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/simple-example/plutus-tx-code/).  
+

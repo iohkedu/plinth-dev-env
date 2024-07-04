@@ -24,4 +24,7 @@ The following instructions explain how to setup VSCode with Dcoker:
 ![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/dokcer-vscode/console-log.PNG) 
 * You can safely close this terminal window by clicking the trash can icon in the upper right corner of the terminal window. Now, open a new terminal window in VS Code by clicking the **Terminal** menu and then **New Terminal**. 
 
-From the new terminal window you can run and build Plutus projects. 
+From the new terminal window you can run and build Plutus projects. With the provided instructions you can run a container inside VSCode for any project which repo provides a *.devcontainer*.
+
+| :information_source:   | The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository provides its own Docker container for development of Plutus projects.|  
+|------------------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
