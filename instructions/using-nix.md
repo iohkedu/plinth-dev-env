@@ -72,6 +72,7 @@ For instructions on how to run a nix shell that contains the development environ
 nix develop
 ```
 * or look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository for set-up instructions. 
+
 | :information_source:   | The *Developer Experience Shell* lets a user pick from a list of various nix shells that support different GHC versions.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------|  
 
