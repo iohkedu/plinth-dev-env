@@ -66,7 +66,7 @@ systemctl status nix-daemon
 | :hourglass:   | When you will run your nix shell for the first time it may take a while until everything has build.|  
 |---------------|:---------------------------------------------------------------------------------------------------| 
 
-For instructions on how to run a nix shell that contains the development environment for Plutus, you can either:  
+For instructions on how to run a nix shell that contains the development environment for Plinth, you can either:  
 * clone [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository and run inside the repository:
 ```console
 nix develop
@@ -76,8 +76,8 @@ nix develop
 | :information_source:   | The *Developer Experience Shell* lets a user pick from a list of various nix shells that support different GHC versions.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------|  
 
-Once your nix shell has build you can start building your Plutus projects from withitn the nix shell. 
+Once your nix shell has build you can start building your Plinth projects from withitn the nix shell. 
 
-| :warning:   | The demo project inside this *plutus-dev-env* repository might not build in the *plutus-tx-template* nix shell since the shell might use a different GHC version the project relies on.|  
-|-------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
+| :warning:   | The demo project inside this repository might not build in the *plutus-tx-template* nix shell since the shell might use a different GHC version the project relies on.|  
+|-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
 

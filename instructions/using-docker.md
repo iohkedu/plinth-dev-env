@@ -1,9 +1,9 @@
 
 # Instructions for setting up your development environment with Docker  
 
-The files for setting up the docker environment in VSCode are locatted in the *.devcontainer* folder. The docker images for the cardano-node and the plutus dev. environment get pulled from the following DockerHub locations: 
-* [cardano-node](https://hub.docker.com/r/inputoutput/cardano-node) 
-* [plutus-environment](https://hub.docker.com/r/robertinoiog/kenya_course) 
+The files for setting up the docker environment in VSCode are locatted in the *.devcontainer* folder. The docker images for the cardano-node and the plinth dev. environment get pulled from the following DockerHub locations: 
+* [Cardano node](https://hub.docker.com/r/inputoutput/cardano-node)  
+* [Plinth environment](https://hub.docker.com/r/robertinoiog/kenya_course)  
 
 In case you do not want to use a Docker integration inside VSCode editor you can use the Docker image directly. The *Dockerfile* and the *docker-compose-plutus.yml* files are located inside the *.devcontainer* folder. 
 
@@ -24,7 +24,7 @@ The following instructions explain how to setup VSCode with Dcoker:
 ![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/dokcer-vscode/console-log.PNG) 
 * You can safely close this terminal window by clicking the trash can icon in the upper right corner of the terminal window. Now, open a new terminal window in VS Code by clicking the **Terminal** menu and then **New Terminal**. 
 
-From the new terminal window you can run and build Plutus projects. With the provided instructions you can run a container inside VSCode for any project which repo provides a working *.devcontainer* folder. 
+From the new terminal window you can run and build Plinth projects. With the provided instructions you can run a container inside VSCode for any project which repo provides a working *.devcontainer* folder. 
 
-| :information_source:   | The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository provides its own *.devcontainer* folder that contains a development environment for Plutus projects.|  
+| :information_source:   | The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository provides its own *.devcontainer* folder that contains a development environment for Plinth projects.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
