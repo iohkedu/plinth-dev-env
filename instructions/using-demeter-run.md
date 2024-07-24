@@ -1,8 +1,8 @@
 
 # Instructions for setting up your development environment with Demeter.Run  
 
-| :warning:     | The Demeter.Run platform is frequently updated and instructions provided in this file may not be up to date at any given time.|  
-|---------------|:------------------------------------------------------------------------------------------------------------------------------|  
+| :warning:     | Demeter.Run is a comercial platform for which users need to pay. It also gets frequently updated and instructions provided in this file may not be up to date at any given time.|  
+|---------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 
 The following instructions guide you through setting up a Plinth development environment in Demeter.Run: 
 * Open your browser, navigate to https://demeter.run/ and click the Login option on the top navigation menu. Login with your Google or GitHub account. You can also sign up for a new account. 
