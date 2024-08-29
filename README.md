@@ -5,8 +5,8 @@ This repository aims to maintain up-to-date instructions for setting up a Plinth
 * [Using Demeter.run](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-demeter-run.md) online platform that provides up-to-date development environments for Plinth and other Cardano smart contract languages. 
 * [Using Nix](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-nix.md) that provides a shell which contains all dependencies for building Plinth projects.  
 
-| :whale:       | The docker image referenced in this repository currently supports features from the **Vasil hard fork**.|  
-|---------------|:--------------------------------------------------------------------------------------------------------|  
+| :whale:       | The docker image referenced in this repository currently supports features from the **Vasil hard fork** and includes Deno v1.32, a open-source JavaScript runtime environment. |  
+|---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 
 An example Plinth project is added to this repository. Once you have set up your developement environment you can build the example project with the following commands from the top location of this repository: 
 ```console
