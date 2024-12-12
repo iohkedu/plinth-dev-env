@@ -1,10 +1,10 @@
 
 # Instructions for setting up your development environment with Docker and VSCode 
 
-The files for setting up the docker environment in VSCode are for a GitHub project locatted in the *.devcontainer* folder. If you want to use a docker container or docker integrated with VSCode in both cases you need to install [Docker Desktop](https://docs.docker.com/get-docker/). 
+The files for setting up the docker environment in VSCode are for a Git project locatted in the *.devcontainer* folder. You need to install [Docker Desktop](https://docs.docker.com/get-docker/) that is used to setup a Docker container standalone or integrated with VSCode. 
 
 | :warning: | It is recomended to install and run Docker Desktop on your native OS. If you want to run Docker Desktop inside a Virtual Machine read through [these notes](https://docs.docker.com/desktop/vm-vdi/). |
-|----------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 
 The following instructions explain how to setup VSCode with Dcoker:
 * Download and install VSCode from [here](https://code.visualstudio.com/). 
