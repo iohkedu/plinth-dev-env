@@ -57,7 +57,7 @@ If it is not add the following line to your nix system configuration file and re
 trusted-users = root <YOUR_USER_NAME>
 ```
 
-If your Linux OS is systemd-based (see Adoption at [Systemd](https://en.wikipedia.org/wiki/Systemd) wiki page) you can restart and check the status of the nix-daemon with the following command. 
+If your Linux OS is systemd-based (see Adoption section at [Systemd](https://en.wikipedia.org/wiki/Systemd) wiki page) you can restart and check the status of the nix-daemon with the following command. 
 ```console
 systemctl restart nix-daemon
 systemctl status nix-daemon
@@ -70,7 +70,8 @@ nix develop
 ```
 | :hourglass:   | When you will run your nix shell for the first time it may take a while until everything has build.|  
 |---------------|:---------------------------------------------------------------------------------------------------| 
-* or look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository for set-up instructions. 
+* or look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository for set-up instructions.
+
 | :information_source:   | The *Developer Experience Shell* lets a user pick from a list of various nix shells that support different GHC versions.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------|  
 
