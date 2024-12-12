@@ -5,18 +5,33 @@ This repository aims to maintain up-to-date instructions for setting up a Plinth
 * [Using Demeter.run](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-demeter-run.md) online platform that provides up-to-date development environments for Plinth and other Cardano smart contract languages. 
 * [Using Nix](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-nix.md) that provides a shell which contains all dependencies for building Plinth projects.  
 
-| :whale:       | The docker image referenced in this repository supports features from the **Vasil hard fork** which lets you compile Plutus V2 scripts. It also includes Deno v1.32, a open-source JavaScript runtime environment. |  
-|---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository references an up-to-date Docker image and Nix shell that both provide a Plinth development environment, that support the latest Plutus version. 
 
-An example Plinth project based on PlutusV2 is added to this repository. Once you have set up your developement environment you can build the example project with the following commands from the top location of this repository: 
+| :whale:       | The docker image referenced in this repository supports features from the **Vasil hard fork** which lets you compile Plutus V2 scripts. It also includes Deno v1.32, a open-source JavaScript runtime environment. |  
+|---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+
+You can use the instructions provided here to install and set-up VSCode with Docker, Nix or Demeter and then use the *plutus-tx-template* repository if you want to have the latest development environment. A note is added at the end of the Docker and Nix instructions on how to use the development environment provided by the *plutus-tx-template* repository. 
+
+The *plutus-tx-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract).  
+
+| :information_source: | The **plinth-dev-env** repository contains a demo Plinth project with a PlutusV2 validator that always passes. |  
+|----------------------|:---------------------------------------------------------------------------------------------------------------|  
+
+Once you have set up your developement environment you can build the example project with the following commands from the location where the `cabal.project` file is located, which for the *plutus-tx-template* repository is the top location of the repo: 
 ```console
 cabal update
+cabal run
+```
+
+The `cabal run` command first builds the project and then runs the executable. It will generate a `blueprint.json` file that contains the compiled code of the 
+validators defined in the project. 
+
+To only build a project without running it you can run the following command from the location where your `cabal.project` file is located:
+```console
 cabal build all
 ```
 
-You can then cd into the *onchain/* fodler and start the REPL with `cabal repl`. 
-
-The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository also references a Docker image and it contains a Nix shell that both provide a Plinth development environment, which is up-to-date and supports the latest Plutus version. Nevertheless, you can use instructions provided here to install and set-up VSCode with Docker, Nix or Demeter and then use the provided *plutus-tx-template* repository for your development environment. A note is added at the end of the Docker and Nix instructions on how to use the development environment provided by the *plutus-tx-template* repository. 
-
-The *plutus-tx-template* repository also provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/simple-example/plutus-tx-code/).  
-
+To start a REPL `cd` into the folder that contains your `<project_name>.cabal` file and run: 
+```console
+cabal repl
+```
