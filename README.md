@@ -7,15 +7,9 @@ This repository aims to maintain up-to-date instructions for setting up a Plinth
 
 The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository references an up-to-date Docker image and Nix shell that both provide a Plinth development environment, that support the latest Plutus version. 
 
-| :whale:       | The docker image referenced in this repository supports features from the **Vasil hard fork** which lets you compile Plutus V2 scripts. It also includes Deno v1.32, a open-source JavaScript runtime environment. |  
-|---------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-
 You can use the instructions provided here to install and set-up VSCode with Docker, Nix or Demeter and then use the *plutus-tx-template* repository if you want to have the latest development environment. A note is added at the end of the Docker and Nix instructions on how to use the development environment provided by the *plutus-tx-template* repository. 
 
 The *plutus-tx-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract).  
-
-| :information_source: | The **plinth-dev-env** repository contains a demo Plinth project with a PlutusV2 validator that always passes. |  
-|----------------------|:---------------------------------------------------------------------------------------------------------------|  
 
 Once you have set up your developement environment you can build the example project with the following commands from the location where the `cabal.project` file is located, which for the *plutus-tx-template* repository is the top location of the repo: 
 ```console
@@ -35,3 +29,11 @@ To start a REPL `cd` into the folder that contains your `<project_name>.cabal` f
 ```console
 cabal repl
 ```
+
+Some additional information about the **plinth-dev-env** repository: 
+
+| :whale:       | The docker image referenced in the **plinth-dev-env** repository supports features from the **Vasil hard fork** which lets you compile Plutus V2 scripts. It also includes Deno v1.32, a open-source JavaScript runtime environment. |  
+|---------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+
+| :information_source: | The **plinth-dev-env** repository contains a demo Plinth project with a PlutusV2 validator that always passes. |  
+|----------------------|:---------------------------------------------------------------------------------------------------------------|  
