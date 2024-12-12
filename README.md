@@ -32,8 +32,5 @@ cabal repl
 
 Some additional information about the **plinth-dev-env** repository: 
 
-| :whale:       | The docker image referenced in the **plinth-dev-env** repository supports features from the **Vasil hard fork** which lets you compile Plutus V2 scripts. It also includes Deno v1.32, a open-source JavaScript runtime environment. |  
-|---------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
-
-| :information_source: | The **plinth-dev-env** repository contains a demo Plinth project with a PlutusV2 validator that always passes. |  
-|----------------------|:---------------------------------------------------------------------------------------------------------------|  
+| :information_source: | The **plinth-dev-env** repository contains a demo Plinth project and a Docker image that both work with PlutusV2. They are provided in case a devloper wants to test and develop legacy PlutusV2 code. |  
+|----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
