@@ -8,7 +8,7 @@ This repository aims to maintain up-to-date instructions for setting up a Plinth
 | :whale:       | The docker image referenced in this repository supports features from the **Vasil hard fork** which lets you compile Plutus V2 scripts. It also includes Deno v1.32, a open-source JavaScript runtime environment. |  
 |---------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 
-An example Plinth project is added to this repository. Once you have set up your developement environment you can build the example project with the following commands from the top location of this repository: 
+An example Plinth project based on PlutusV2 is added to this repository. Once you have set up your developement environment you can build the example project with the following commands from the top location of this repository: 
 ```console
 cabal update
 cabal build all
