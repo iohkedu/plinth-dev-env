@@ -57,27 +57,21 @@ If it is not add the following line to your nix system configuration file and re
 trusted-users = root <YOUR_USER_NAME>
 ```
 
-If your OS is systemd-based you can restart and check the status of the nix-daemon with the following command. 
+If your Linux OS is systemd-based (see Adoption at [Systemd](https://en.wikipedia.org/wiki/Systemd) wiki page) you can restart and check the status of the nix-daemon with the following command. 
 ```console
 systemctl restart nix-daemon
 systemctl status nix-daemon
 ```
-
-| :hourglass:   | When you will run your nix shell for the first time it may take a while until everything has build.|  
-|---------------|:---------------------------------------------------------------------------------------------------| 
 
 For instructions on how to run a nix shell that contains the development environment for Plinth, you can either:  
 * clone [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository and run inside the repository:
 ```console
 nix develop
 ```
+| :hourglass:   | When you will run your nix shell for the first time it may take a while until everything has build.|  
+|---------------|:---------------------------------------------------------------------------------------------------| 
 * or look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository for set-up instructions. 
-
 | :information_source:   | The *Developer Experience Shell* lets a user pick from a list of various nix shells that support different GHC versions.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------|  
 
 Once your nix shell has build you can start building your Plinth projects from withitn the nix shell. 
-
-| :warning:   | The demo project inside this repository might not build in the *plutus-tx-template* nix shell since the shell might use a different GHC version the project relies on.|  
-|-------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
-
