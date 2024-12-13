@@ -21,7 +21,9 @@ Once you have set up your developement environment and updated the *cabal packag
 cabal run <executable_name>
 ```
 
-You can find the executable names in the *executable* sections of the `<project_name>.cabal` file. In case there is only one executable name listed you can skip the name and run only `cabal run`. The command first builds the project and then runs the executable file defined in the *executable* sections. 
+You can find the executable names in the *executable* sections of the `<project_name>.cabal` file. In case there is only one executable name listed you can skip the name and run only `cabal run`. 
+
+The command first builds the project and then runs the executable file defined in the *executable* sections. 
 
 | :information_source: | In case the project uses Plutus blueprints it will generate a `blueprint.json` file that contains the compiled code of the validators defined in the project. |  
 |----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
