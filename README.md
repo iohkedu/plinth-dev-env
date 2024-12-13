@@ -7,7 +7,7 @@ This repository aims to maintain up-to-date instructions for setting up a Plinth
 
 The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository references an up-to-date Docker image and a Nix shell that both provide a Plinth development environment for the latest Plutus version. 
 
-You can use the instructions provided here to install and set-up VSCode with Docker, Nix or Demeter and then use the *plutus-tx-template* repository if you want to have the latest development environment. A note is added at the end of the Docker and Nix instructions on how to use the development environment provided by the *plutus-tx-template* repository. 
+You can use the instructions provided here to install and configure VSCode with Docker, Nix or Demeter and then set it up with the *plutus-tx-template* repository. 
 
 | :information_source: | The *plutus-tx-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract). |  
 |----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
