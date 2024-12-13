@@ -16,7 +16,7 @@ The [cabal tool](https://cabal.readthedocs.io/en/stable/) is used for building a
 cabal update
 ```
 
-Once you have set up your developement environment and updated the *cabal package index*, you can build and run an example project with the following command from the location where the `cabal.project` and `<project_name>.cabal` files are located, which for the *plutus-tx-template* repository is the top location of the repo: 
+Once you have set up your developement environment and updated the *cabal package index*, you can build and run an example project with the following command from the location where the `cabal.project` and `<project_name>.cabal` files are located: 
 ```console
 cabal run <executable_name>
 ```
