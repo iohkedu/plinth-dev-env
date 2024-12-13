@@ -11,21 +11,28 @@ You can use the instructions provided here to install and set-up VSCode with Doc
 
 The *plutus-tx-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract).  
 
-Once you have set up your developement environment you can build the example project with the following commands from the location where the `cabal.project` file is located, which for the *plutus-tx-template* repository is the top location of the repo: 
+The [cabal tool](https://cabal.readthedocs.io/en/stable/) is used for building and packaging Haskell programs. Before compiling any project you should update the *cabal package index* with the following command, that tells cabal what packages and versions are available for installation: 
 ```console
 cabal update
-cabal run
 ```
 
-The `cabal run` command first builds the project and then runs the executable. It will generate a `blueprint.json` file that contains the compiled code of the 
-validators defined in the project. 
-
-To only build a project without running it you can run the following command from the location where your `cabal.project` file is located:
+Once you have set up your developement environment and updated the *cabal package index*, you can build and run an example project with the following command from the location where the `cabal.project` and `<project_name>.cabal` files are located, which for the *plutus-tx-template* repository is the top location of the repo: 
 ```console
-cabal build all
+cabal run <executable_name>
 ```
 
-To start a REPL `cd` into the folder that contains your `<project_name>.cabal` file and run: 
+You can find the executable names in the *executable* sections of the `<project_name>.cabal` file. In case there is only one executable name listed you can skip the name and run only `cabal run`. The command first builds the project and then runs the executable file defined in the *executable* sections. 
+
+| :information_source: | In case the project uses Plutus blueprints it will generate a `blueprint.json` file that contains the compiled code of the validators defined in the project. |  
+|----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
+
+The following commands perform building and runing a project in two steps:
+```console
+cabal build <executable_name>
+cabal exec <executable_name>
+```
+
+To start a REPL for a project use: 
 ```console
 cabal repl
 ```
