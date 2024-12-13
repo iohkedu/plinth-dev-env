@@ -11,6 +11,8 @@ You can use the instructions provided here to install and set-up VSCode with Doc
 
 The *plutus-tx-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract).  
 
+## Compiling a project 
+
 The [cabal tool](https://cabal.readthedocs.io/en/stable/) is used for building and packaging Haskell programs. Before compiling any project you should update the *cabal package index* with the following command, that tells cabal what packages and versions are available for installation: 
 ```console
 cabal update
