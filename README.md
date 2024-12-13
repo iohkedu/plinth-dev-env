@@ -9,7 +9,11 @@ The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree
 
 You can use the instructions provided here to install and set-up VSCode with Docker, Nix or Demeter and then use the *plutus-tx-template* repository if you want to have the latest development environment. A note is added at the end of the Docker and Nix instructions on how to use the development environment provided by the *plutus-tx-template* repository. 
 
-The *plutus-tx-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract).  
+| :information_source: | The *plutus-tx-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract). |  
+|----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
+
+| :information_source: | The *plinth-dev-env* repository contains a demo Plinth project and a Docker image that both work with PlutusV2. They are provided in case a devloper wants to test and develop legacy PlutusV2 code. |  
+|----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 
 ## Compiling a project 
 
@@ -40,8 +44,3 @@ To start a REPL for a project use:
 ```console
 cabal repl
 ```
-
-Some additional information about the **plinth-dev-env** repository: 
-
-| :information_source: | The **plinth-dev-env** repository contains a demo Plinth project and a Docker image that both work with PlutusV2. They are provided in case a devloper wants to test and develop legacy PlutusV2 code. |  
-|----------------------|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
