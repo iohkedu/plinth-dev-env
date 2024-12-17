@@ -72,7 +72,8 @@ nix develop
 |---------------|:---------------------------------------------------------------------------------------------------| 
 * or look at IOG's [Developer Experience Shell](https://github.com/input-output-hk/devx) repository for set-up instructions.
 
+| :information_source:   | Once your nix shell has build you can `cd` into your Plinth project directory and start building the project.|  
+|------------------------|:-------------------------------------------------------------------------------------------------------------| 
+
 | :information_source:   | The *Developer Experience Shell* lets a user pick from a list of various nix shells that support different GHC versions.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------|  
-
-Once your nix shell has build you can start building your Plinth projects from withitn the nix shell. 
