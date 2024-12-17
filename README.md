@@ -1,8 +1,8 @@
 # Instructions for setting up a Plinth development enviroment 
 
 This repository aims to maintain up-to-date instructions for setting up a Plinth, formerly knows as PlutusTx, development environment. There are three possibilities how to setup the environment:  
-* [Using a docker image](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-docker.md), that can be used standalone or integrated with VSCode. 
 * [Using Nix](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-nix.md) that provides a shell which contains all dependencies for building Plinth projects. 
+* [Using a docker image](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-docker.md), that can be used standalone or integrated with VSCode. 
 * [Using Demeter.run](https://github.com/iohkedu/plutus-dev-env/blob/main/instructions/using-demeter-run.md) online platform that provides up-to-date development environments for Plinth and other Cardano smart contract languages. 
 
 The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository references an up-to-date Docker image and a Nix shell that both provide a Plinth development environment for the latest Plutus version. 
