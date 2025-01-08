@@ -1,7 +1,11 @@
 
 # Instructions for setting up your development environment with Nix 
 
+| :information_source: | In case you are a windows user first follow the *Install WSL and integrate with VSCode* instructions that are provided at the bottom of this page. |  
+|----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
+
 First you will need to install *nix* on your system. Instructions for Linux, Mac OS, Windows (WSL2) and Docker can be found at the [official webpage](https://nixos.org/download). 
+
 If you are using Linux you might need to disable SELinux ([Fedora instructions](https://docs.fedoraproject.org/en-US/quick-docs/selinux-changing-states-and-modes/#_disabling_selinux)) to be able to install Nix. 
 
 When installing Nix from the command line you will be asked following questions:
@@ -77,3 +81,21 @@ nix develop
 
 | :information_source:   | The *Developer Experience Shell* lets a user pick from a list of various nix shells that support different GHC versions.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------|  
+
+## Install WSL and integrate with VSCode
+
+WSL (Windows Subsystem for Linux) version 2 needs to be installed on your device before installing Nix. WSL 2 is only available in Windows 11 or Windows 10, Version 1903, Build 18362 or later. 
+
+Up-to-date WSL installation instructions can be found at the [official documentation](https://learn.microsoft.com/en-us/windows/wsl/install). At the time of writing the Ubuntu OS gets installed as the default Linux OS. You have the option to chose another distribution from the online store. 
+
+| :information_source: | The installation of a Linux OS through WSL make take a while. |  
+|----------------------|:--------------------------------------------------------------|   
+
+Once WSL2 with a OS is installed on your device you can follow the installation instruction for Nix provided at the begining of this page. If you want to access the file system in your WSL you can execute the following command that will open the currecnt location in your windows explorer: 
+```console
+explorer.exe .
+```
+
+The [VSCode editor](https://code.visualstudio.com/) provides an integration for WSL. You can open a folder in your Linux OS with VSCode and then open a terminal in VSCode that lets you access your WSL. If you open the folder with VSCode in windows through explorer, VSCode will promt a message if you want to reopen the folder in WSL. 
+
+![alt text](https://github.com/iohkedu/plinth-dev-env/tree/main/images/nix/VSCode_with_wsl.png)
