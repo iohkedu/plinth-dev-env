@@ -98,7 +98,7 @@ Once WSL2 with a OS is installed on your device you can follow the installation 
 
 **WSL VSCode integration**
 
-The [VSCode editor](https://code.visualstudio.com/) provides an integration for WSL. You can open a folder in your Linux OS with VSCode and then open a terminal in VSCode that lets you access your WSL. 
+The [VSCode editor](https://code.visualstudio.com/) provides an integration for WSL. You need to add the `WSL` VSCode extension. Then you can open a folder in your WSL Linux with VSCode by `cd` into it and running `code .`. If you then open a terminal in VSCode (View -> Terminal) it will let you access your WSL. 
 
 If you open the folder with VSCode in windows through explorer, VSCode will promt a message if you want to reopen the folder in WSL. 
 
