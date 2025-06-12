@@ -66,7 +66,7 @@ systemctl status nix-daemon
 ```
 
 For instructions on how to run a nix shell that contains the development environment for Plinth, you can either:  
-* clone [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository and run inside the repository:
+* clone [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository and run inside the repository:
 ```console
 nix develop
 ```

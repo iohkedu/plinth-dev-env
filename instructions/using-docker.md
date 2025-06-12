@@ -23,5 +23,5 @@ The following instructions explain how to setup VSCode with Docker:
 
 From the new terminal window you can run and build Plinth projects. With the provided instructions you can run a container inside VSCode for any project which repo provides a working *.devcontainer* folder. 
 
-| :information_source:   | The [plutus-tx-template](https://github.com/IntersectMBO/plutus-tx-template/tree/main) repository provides its own *.devcontainer* folder that contains a development environment for Plinth projects.|  
+| :information_source:   | The [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository provides its own *.devcontainer* folder that contains a development environment for Plinth projects.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
