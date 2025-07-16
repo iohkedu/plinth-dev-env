@@ -34,7 +34,7 @@ You can find the executable names in the *executable* sections of the `<project_
 
 The command first builds the project and then runs the executable file defined in the *executable* section. 
 
-| :information_source: | In case the project uses Plutus blueprints running the project will generate a `blueprint.json` file that contains the compiled code of the validators defined in the project. |  
+| :information_source: | In case the project uses [Plutus blueprints](https://cips.cardano.org/cip/CIP-0057) running the project will generate a `blueprint.json` file that contains the compiled code of the validators defined in the project. |  
 |----------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 
 The following commands perform building and runing a project in two steps:
