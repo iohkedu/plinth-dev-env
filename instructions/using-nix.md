@@ -45,6 +45,10 @@ substituters = https://cache.nixos.org https://cache.iog.io
 trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ= cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=
 ```
 
+| :information_source: | The *substituters* and *trusted-public-keys* provided in this repository might change, which does not happen frequently. For latest data check the nix setup instruction at the [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository. | 
+|----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
+
+
 In case you are using Linux you can do that by running the following command: 
 ```console
 cat <<EOF | sudo tee -a /etc/nix/nix.conf
