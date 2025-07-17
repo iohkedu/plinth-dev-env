@@ -1,7 +1,7 @@
 
 # Instructions for setting up your development environment with Docker and VSCode 
 
-The files for setting up the docker environment in VSCode are for a Git project locatted in the *.devcontainer* folder. You need to install [Docker Desktop](https://docs.docker.com/get-docker/) that is used to setup a Docker container standalone or integrated with VSCode. 
+The files for setting up the docker environment in VSCode are for a Git project locatted in the *.devcontainer* folder. The [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository provides a *.devcontainer* folder that contains a development environment for Plinth projects. You need to install [Docker Desktop](https://docs.docker.com/get-docker/) that is used to setup a Docker container standalone or integrated with VSCode. 
 
 | :warning: | It is recomended to install and run Docker Desktop on your native OS. If you want to run Docker Desktop inside a Virtual Machine read through [these notes](https://docs.docker.com/desktop/vm-vdi/). |
 |-----------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -21,7 +21,7 @@ The following instructions explain how to setup VSCode with Docker:
 ![alt text](https://github.com/LukaKurnjek/plutus-dev-env/blob/main/images/dokcer-vscode/console-log.PNG) 
 * You can safely close this terminal window by clicking the trash can icon in the upper right corner of the terminal window. Now, open a new terminal window in VS Code by clicking the **Terminal** menu and then **New Terminal**. 
 
-From the new terminal window you can run and build Plinth projects. With the provided instructions you can run a container inside VSCode for any project which repo provides a working *.devcontainer* folder. 
+From the new terminal window you can run and build Plinth projects. With the provided instructions you can run a container inside VSCode for any project which repo provides a working *.devcontainer* folder.  
 
-| :information_source:   | The [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository provides its own *.devcontainer* folder that contains a development environment for Plinth projects.|  
+| :information_source:   | If running into issues when setting up a Docker container refer to latest Docker instructions that are provided in the [plinth-template](https://github.com/IntersectMBO/plinth-template/) repository.|  
 |------------------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
