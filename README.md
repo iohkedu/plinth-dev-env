@@ -9,14 +9,11 @@ The [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main)
 
 You can use the instructions provided here to install and configure Nix, VSCode with Docker or Demeter and then set it up with the *plinth-template* repository. 
 
-| :information_source: | Instructions provided in this repository might not be fully up to date at all times. For latest Nix and Docker instructions please check the instructions at the [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository. | 
+| :information_source: | Instructions provided in this repository might not be fully up to date at all times. For latest Nix and Docker instructions check the [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository. | 
 |----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------| 
 
 | :information_source: | The *plinth-template* repository provides an auction demo project. A walkthrough of the code can be found at the official [Plutus user guide](https://plutus.cardano.intersectmbo.org/docs/category/example-an-auction-smart-contract). |  
 |----------------------|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|   
-
-| :information_source: | The *plinth-dev-env* repository contains a demo Plinth project and a Docker image that both work with PlutusV2. They are provided in case a devloper wants to test and develop legacy PlutusV2 code. |  
-|----------------------|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|  
 
 ## Compiling a project 
 
