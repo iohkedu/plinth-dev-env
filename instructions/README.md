@@ -1,4 +1,4 @@
 
-# Instructions for setting up a Plutus development environment
+# Instructions for setting up a Plinth development environment
 
 
