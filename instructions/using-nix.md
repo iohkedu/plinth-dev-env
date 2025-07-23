@@ -41,8 +41,8 @@ EOF
 
 To improve build speed, it is possible to set up a binary cache maintained by IOG. This step is optional and can be done by adding the following lines to your nix system configuration file: 
 ```console
-substituters = https://cache.nixos.org https://cache.iog.io
-trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ= cache.nixos.org-1:6NCHdD59X431o0gWypbMrAURkbJ16ZPMQFGspcDShjY=
+substituters = https://cache.iog.io
+trusted-public-keys = hydra.iohk.io:f/Ea+s+dFdN+3Y/G+FDgSq+a5NEWhJGzdjvKNGv0/EQ=
 ```
 
 | :information_source: | The *substituters* and *trusted-public-keys* provided in this repository might change, which does not happen frequently. For latest data check the nix setup instruction at the [plinth-template](https://github.com/IntersectMBO/plinth-template/tree/main) repository. | 
